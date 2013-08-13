@@ -6,7 +6,7 @@ body {
   font-size: 13px;
   color: #aaff56;
   background-color: #ff56aa;
-  background-image:https://f.cloud.github.com/assets/5123852/956093/0119fcc8-0437-11e3-98ee-9379092b880e.jpg;
+  background-image:url('https://f.cloud.github.com/assets/5123852/956093/0119fcc8-0437-11e3-98ee-9379092b880e.jpg');
 }
 
 a {
