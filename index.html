@@ -2,77 +2,103 @@
 
 <html>
 
- <head>
+<head>
 
-       <link rel="stylesheet" type="text/css" href="bootstrap.css">
-       
-       <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
 
- </head>
+   <script> 
+
+   var Name="Samaiya Butler's Website";
+
+   var School="Lindblom Math & Science Academy";
+
+   var Extension=".Samaiya Butler";
+
+   var Creator Of Website="Samaiya";
+
+   var Birthday="November 26, 1997.";
+
+  </script>
+
+</head>
 
 <body>
-   
-    <div class="navbar">
 
-    <div class="navbar-inner">
+ <div align="center" class="container">
 
-     <a class="brand" href="#">Samaiya's Website</a>
+  <h1>Samaiya Butler</h1>
 
-      <ul class="nav">
+  <div class="navbar">
 
-       <li><a href="home.html">Home</a></li>
+   <div class="navbar-inner">
 
-       <li><a href="resume.html">Resume</a></li>
+    <ul class="nav">
 
-       <li><a href="bio.html">Bio</a></li>
-       
-       <li><a href="englewoodcodes.html">Englewood Codes Reflection</a></li>
-       
-       <li><a href="more.html">More!</a></li>
-       
-       
-     </ul>
+     <li class="active"><a href="index.html">Home</a></li>
+
+     <li><a href="about.html">Bio</a></li>
+
+     <li><a href="job.html">Resume</a></li>
+
+     <li><a href="ref.html">Englewood Codes Reflection</a></li>
+
+    </ul>
 
    </div>
 
+  </div>
+
+ <div align="center">
+
+  <h2>Samaiya Butler</h2>
+
+  <p>
+
  </div>
 
+ <div align="center">
+
+  <img src="Capture1.jpg">
+
+ </div>
+
+  <script>
+
+    function myFunction()
+
+     {
+
+        document.getElementById("name").innerHTML=Name;
+
+        document.getElementById("nickname").innerHTML=School;
+
+        document.getElementById("extension").innerHTML=Extension;
+
+        document.getElementById("creator").innerHTML=Creator Of Website;
+
+        document.getElementById("year").innerHTML=Birthday;
+
+     }
+
+    </script>
 
 
+    <button type="button" onclick="myFunction()">Meet Samaiya Butler</button>
 
-<ul class="thumbnails">
+    
+     <p>Name: <span id="name"></span></p>
 
-<li class="span3">
+     <p>School: <span id="nickname"></span></p>
 
-         <div class="thumbnail">
+     <p>Extension: <span id="extension"></span></p>
 
-           <h4 style="color: White">Welcome To My Website! </h4>
+     <p>Creator Of Website: <span id="creator"></span></p>
 
-           <p style="color: Whitw">This website is basically about me, what I've learned in Englewood Codes & what my Resume looks like so far.</p>
+     <p>Birthday: <span id="year"></span></p>
 
-        </div>
-
-       </li>
-      
-     </ul>
-
-
-<ul class="thumbnails">
-
-<li class="span5">
-
-         <div class="thumbnail">
-
-        </div>
-
-       </li>
-      
-     </ul>
-
-
-<ul class="thumbnails">
-
-<li class="span5">
+ </div>
 
 </body>
 
