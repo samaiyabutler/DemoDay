@@ -1,10 +1,14 @@
+@import url(bootstrap.css);
+
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   color: #aaff56;
   background-color: #ff56aa;
-  background-image: url("https://f.cloud.github.com/assets/5123852/957197/934f5254-044c-11e3-9c01-8a092258a30a.jpg")
+  background-image: url(https://f.cloud.github.com/assets/5123852/957197/934f5254-044c-11e3-9c01-8a092258a30a.jpg);
+  
+}
 
 a {
   color: #0088cc;
