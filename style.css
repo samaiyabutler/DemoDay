@@ -218,6 +218,16 @@ input[type="color"],
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'688B10, endColorstr='#'0F3AA0, GradientType=0);
 }
 
+.navbar-inner {
+  background-image: -moz-linear-gradient(top, #688B10, #0F3AA0);
+  background-image: -ms-linear-gradient(top, #688B10, #0F3AA0);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#688B10), to(#0F3AA0));
+  background-image: -webkit-linear-gradient(top, #688B10, #0F3AA0);
+  background-image: -o-linear-gradient(top, #688B10, #0F3AA0);
+  background-image: linear-gradient(top, #688B10, #0F3AA0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#'688B10, endColorstr='#'0F3AA0, GradientType=0);
+}
+
 .navbar .brand {
   padding: 8px 20px 12px;
   font-size: 20px;
@@ -241,6 +251,7 @@ input[type="color"],
 .navbar .nav > .active > a:focus {
   color: #38ECA0;
 }
+
 
 
 .label,
