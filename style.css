@@ -225,19 +225,19 @@ input[type="color"],
 .navbar .brand {
   padding: 8px 20px 12px;
   font-size: 42px;
-  color: #ff00d0;
+  color: #84f4ff;
 }
 
 .navbar .divider-vertical {
   height: 41px;
-  background-color: #1443A0;
+  background-color: #84f4ff;
   border-right: 1px solid #00ffff;
 }
 
 .navbar .nav > li > a {
   padding: 10px 10px 11px;
   font-size: 14px;
-  color: #2A7F10;
+  color: #84f4ff;
 }
 
 .navbar .nav > .active > a,
