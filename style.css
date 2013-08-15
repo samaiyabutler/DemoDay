@@ -225,13 +225,13 @@ input[type="color"],
 .navbar .brand {
   padding: 8px 20px 12px;
   font-size: 28px;
-  color: #704130;
+  color: #ff00d0;
 }
 
 .navbar .divider-vertical {
   height: 41px;
   background-color: #1443A0;
-  border-right: 1px solid #ED8860;
+  border-right: 1px solid #00ffff;
 }
 
 .navbar .nav > li > a {
