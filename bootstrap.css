@@ -1,4 +1,3 @@
-
 *zoom: 1;
 }
 
@@ -2926,7 +2925,7 @@ table th[class*="span"],
 
 .dropdown-menu .divider {
   *width: 100%;
-  height: 1px;
+  height: 2px;
   margin: 9px 1px;
   *margin: -5px 0 5px;
   overflow: hidden;
